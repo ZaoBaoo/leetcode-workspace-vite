@@ -1,3 +1,5 @@
+// https://leetcode.com/problems/find-common-characters/description/
+
 function commonChars(words: string[]): string[] {
   const wordsSplit = words.map((item) => item.split(""));
 
