@@ -20,7 +20,3 @@ function cancellable(fn: Fn, args: JSONValue[], t: number): Function {
 
   return cancelFn;
 }
-
-const fn1 = cancellable((x: any) => console.log("start", x), [2], 2000);
-
-setTimeout(fn1, 1000);
